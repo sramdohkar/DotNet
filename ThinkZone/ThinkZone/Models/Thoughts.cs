@@ -8,7 +8,6 @@ namespace ThinkZone.Models
 {
     public class Thoughts
     {
-        //Sample 
         [Key]
         public string ThoughtID { get; set; }
         public string Title { get; set; }
