@@ -12,7 +12,8 @@ namespace ThinkZone.Models
         public string PathID { get; set; }
         public string PathName { get; set; }
         public DateTime CreatedAt { get; set; }
-        public string CreatedBy { get; set; }
+        public string UserID { get; set; }
 
+        public ApplicationUser User { get; set; }
     }
 }

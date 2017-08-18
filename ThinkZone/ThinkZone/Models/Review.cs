@@ -14,6 +14,9 @@ namespace ThinkZone.Models
         public string ReviewerComment { get; set; }
         public string LevelID { get; set; }
         public string ThoughtID { get; set; }
+        public DateTime EnteredAt { get; set; }
+        public DateTime MovedAt { get; set; }
+        public bool IsBlocked { get; set; }
 
         public Level Level { get; set; }
         public Thoughts Thoughts { get; set; }
