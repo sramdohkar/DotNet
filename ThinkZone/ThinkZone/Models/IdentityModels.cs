@@ -19,7 +19,8 @@ namespace ThinkZone.Models
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        
+        public string ImageURL { get; set; }
+
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
